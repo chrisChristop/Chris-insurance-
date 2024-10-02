@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* scroll-behavior: smooth; */
+}
+
+nav {
+  align-items: center;
+  background-color: cyan;
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+nav div:first-child {
+  background-color: red;
+  flex: 0.5;
+  order: 2;
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+  padding: 30px;
+}
+
+/* a {
+  float: inline-start;
+} */
+
+h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: Century Gothic;
+  font-style: italic;
+  font-size: 40px;
+  font-weight: bolder;
+  line-height: 50px;
+}
+h3,
+h2 {
+  color: white;
+  background-color: rgb(19, 19, 19);
+  text-decoration: none;
+  text-align: left;
+  letter-spacing: 0.2cm;
+}
+#div-one {
+  color: white;
+  background-color: rgb(12, 12, 12);
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  border: 2px solid rgb(38, 207, 190);
+}
+
+#div-two {
+  padding: 50px;
+}
+
+#div-two a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 5px;
+}
+#div-two a:hover {
+  background-color: black;
+  border-radius: 0%;
+}
+#div-two a:visited {
+  color: blue;
+  background-color: white;
+}
+#div-three {
+  width: 50%;
+}
+#div-three form .form-group label {
+  display: block;
+  margin-left: 5px;
+}
+#div-three form .form-group {
+  margin-bottom: 10px;
+}
+#div-three form .form-group input {
+  width: 100%;
+  padding: 20px;
+}
+#div-three form input[type="submit"] {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+#div-three form input[type="submit"]:hover {
+  background-color: blue;
+}
