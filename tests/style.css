@@ -145,6 +145,29 @@ div section h3 {
   display: flex;
   height: 80px;
 }
+
+#header nav .menu {
+  background-color: #f5f3f3;
+  cursor: pointer;
+  display: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+}
+
+#header nav .menu .line {
+  background-color: #d3d3d3;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  height: 2.5px;
+  margin-left: auto;
+  margin-bottom: 3px;
+  margin-right: auto;
+  margin-top: 5px;
+  width: 18px;
+}
+
 div nav a {
   color: var(--color-white);
   text-decoration: none;
@@ -510,24 +533,279 @@ div #log-div-one h2 {
   color: var(--color-white);
   font-size: 50px;
 }
+.welcome-div2 {
+  color: rgb(144, 198, 64);
+  height: 300px;
 
+  background: linear-gradient(rgba(0, 0, 0, 0.852), rgba(0, 0, 0, 0.85)),
+    url("../gallery/assets/OIP.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+  width: 100%;
+  margin: 0px;
+}
+.welcome-div2 p {
+  width: 65%;
+  color: var(--color-white);
+  font-size: larger;
+}
+.welcome-div2 h1 {
+  color: var(--color-white);
+  font-size: 50px;
+}
+.welcome-div3 {
+  /* align-content: center; */
+
+  color: rgb(144, 198, 64);
+  height: 300px;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.852), rgba(0, 0, 0, 0.85)),
+    url("../gallery/assets/R.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+  width: 100%;
+  margin: 0px;
+}
+.welcome-div3 p {
+  width: 65%;
+  color: var(--color-white);
+  font-size: larger;
+}
+.welcome-div3 h1 {
+  color: var(--color-white);
+  font-size: 50px;
+}
+.welcome-div4 {
+  /* align-content: center; */
+
+  color: rgb(144, 198, 64);
+  height: 300px;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.852), rgba(0, 0, 0, 0.85)),
+    url("../gallery/assets/OIP\ \(40\).jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+  width: 100%;
+  margin: 0px;
+}
+.welcome-div4 p {
+  width: 65%;
+  color: var(--color-white);
+  font-size: larger;
+}
+.welcome-div4 h1 {
+  color: var(--color-white);
+  font-size: 50px;
+}
+.welcome-div5 {
+  /* align-content: center; */
+
+  color: rgb(144, 198, 64);
+  height: 300px;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.852), rgba(0, 0, 0, 0.85)),
+    url("../gallery/assets/OIP\ \(1\).jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+  width: 100%;
+  margin: 0px;
+}
+.welcome-div5 p {
+  width: 65%;
+  color: var(--color-white);
+  font-size: larger;
+}
+.welcome-div5 h1 {
+  color: var(--color-white);
+  font-size: 50px;
+}
+.welcome-div6 {
+  /* align-content: center; */
+
+  color: rgb(144, 198, 64);
+  height: 300px;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.852), rgba(0, 0, 0, 0.85)),
+    url("../gallery/assets/OIP\ \(3\).jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+  width: 100%;
+  margin: 0px;
+}
+.welcome-div6 p {
+  width: 65%;
+  color: var(--color-white);
+  font-size: larger;
+}
+.welcome-div6 h1 {
+  color: var(--color-white);
+  font-size: 50px;
+}
+.welcome-div7 {
+  /* align-content: center; */
+
+  color: rgb(144, 198, 64);
+  height: 300px;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.852), rgba(0, 0, 0, 0.85)),
+    url("../gallery/assets/OIP\ \(4\).jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+  width: 100%;
+  margin: 0px;
+}
+.welcome-div7 p {
+  width: 65%;
+  color: var(--color-white);
+  font-size: larger;
+}
+.welcome-div7 h1 {
+  color: var(--color-white);
+  font-size: 50px;
+}
+.inp {
+  align-items: right;
+  background-color: black;
+  color: var(--color-white);
+  border: 50px;
+  border-radius: 30px;
+  padding: 10px;
+  width: 90px;
+}
+ol p {
+  text-align: center;
+}
+.description {
+  line-height: 30px;
+}
 @media screen and (max-width: 760px) {
   #header nav {
     align-items: flex-start;
     flex-direction: column;
     height: 100%;
-    /* align-items: center; */
+    align-items: center;
     justify-content: flex-start;
-    /* gap: 30px; */
+    gap: 30px;
+
+    align-items: flex-start;
+    flex-direction: column;
     background-color: var(--color-orange);
   }
 
-  #header nav div {
-    align-items: flex-start;
+  #header nav div #header nav div a {
+    padding: 0px;
+  }
+  p {
+    font-size: medium;
+    color: rgb(12, 14, 12);
+
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+  .service-item {
+    justify-content: left;
+    flex-direction: column;
+    width: 100%;
+  }
+  .all-services {
+    background-color: whitesmoke;
+    padding: 5px;
+    width: 100%;
+  }
+  .service-item .service-item-img-container {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+  }
+  .testimonial-item {
+    height: 100%;
+    /* margin: 40px; */
+    padding: 30px;
+    /* gap: 20px; */
+    width: 80%;
+  }
+  .testimonial-item p {
+    width: 70%;
+    text-align: center;
+  }
+  #testimonials-container {
     flex-direction: column;
   }
 
-  #header nav div a {
-    padding: 0px;
+  .form-group input {
+    flex-direction: column;
   }
+  #log-img img {
+    display: none;
+  }
+  #div-three {
+    width: 100%;
+  }
+  .welcome-div h1 {
+    text-align: center;
+  }
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100%; */
+  }
+  .testimonials .testimonial-item2 {
+    display: flex;
+    height: 60%;
+    width: 60%;
+  }
+
+  #header nav .nav-left-container {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  #header nav .menu {
+    display: block;
+  }
+
+  div nav a {
+    /* text-align: justify !important; */
+    margin: 0px;
+  }
+
+  /* #header div a {
+    padding: 0px;
+  } */
+
+  .nav-class {
+    display: flex;
+    flex-direction: column;
+    display: none !important;
+    /* width: 300px; */
+    align-items: flex-start !important;
+    width: 100%;
+  }
+
+  .nav-class a {
+    text-align: left;
+  }
+  /* .footer {
+    height: 100%;
+  } */
 }

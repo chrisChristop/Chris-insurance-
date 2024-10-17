@@ -9,14 +9,24 @@
   </head>
   <body>
     <div id="header">
-      <nav class="flex justify-content-between gap-30">
-        <a href="./index.html"
-          ><img src="../gallery/assets/new-leadway-white-logo.png" width="70px"
-        /></a>
+      <nav class="justify-content-between gap-30">
+        <div class="flex nav-left-container">
+          <a href="./index.html"
+            ><img
+              src="../gallery/assets/new-leadway-white-logo.png"
+              width="70px"
+          /></a>
 
-        <div class="flex">
+          <div class="menu">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+        </div>
+
+        <div class="nav-class flex">
           <a href="./About Us.html">ABOUT US</a>
-          <a href="#services">OUR SERVICES</a>
+          <a href="./services.html">OUR SERVICES</a>
           <a href="./testimonials.html">TESTIMONIALS</a>
           <a href="./Contact.html">CONTACT</a>
           <a class="button" href="./login.html">LOGIN</a>
@@ -51,7 +61,7 @@
       <h1 id="services">Our Services</h1>
 
       <div class="all-services">
-        <div class="flex service-item">
+        <div class="flex service-item justify-content-between">
           <div class="service-item-img-container">
             <img src="../gallery/assets/OIP.jpeg" />
           </div>
@@ -72,13 +82,12 @@
               expedita dicta consectetur atque velit eos impedit corporis natus
               sapiente excepturi consequatur, corrupti qui doloribus magnam
             </p>
+            <a href="./rent.html"
+              ><input class="inp" type="button" value="MORE"
+            /></a>
           </div>
         </div>
         <div class="flex service-item">
-          <div class="service-item-img-container">
-            <img src="../gallery/assets/OIP (5).jpeg" />
-          </div>
-
           <div class="service-item-text">
             <h3>Rent Insurance</h3>
 
@@ -95,6 +104,13 @@
               expedita dicta consectetur atque velit eos impedit corporis natus
               sapiente excepturi consequatur, corrupti qui doloribus magnam
             </p>
+            <a href="./rent.html"
+              ><input class="inp" type="button" value="MORE"
+            /></a>
+          </div>
+
+          <div class="service-item-img-container">
+            <img src="../gallery/assets/OIP (40).jpeg" />
           </div>
         </div>
       </div>
@@ -176,13 +192,17 @@
 
       <a class="button" href="./testimonials.html">OTHER TESTIMONIALS</a>
     </section>
+
     <footer class="footer flex flex-column">
       <div class="flex justify-content-between">
         <img src="../gallery/assets/new-leadway-white-logo.png" width="15%" />
-        <div id="footer-div-two flex">
+        <div class="footer-div-two flex flex-column justify-content-between">
           <a href="./About Us.html">ABOUT US</a>
+          <br />
           <a href="./testimonials.html">TESTIMONIALS</a>
+          <br />
           <a href="./login.html"> LOGIN</a>
+          <br />
           <a href="./Contact.html">CONTACT US</a>
         </div>
         <div class="flex">
