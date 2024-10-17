@@ -146,26 +146,21 @@ div section h3 {
   height: 80px;
 }
 
-#header nav .menu {
-  background-color: #f5f3f3;
-  cursor: pointer;
+input[type="checkbox"]#toggle {
   display: none;
-  border-radius: 5px;
+}
+
+label {
+  display: block;
+  cursor: pointer;
   height: 30px;
   width: 30px;
 }
 
-#header nav .menu .line {
-  background-color: #d3d3d3;
-  border-radius: 5px;
-  cursor: pointer;
-  display: block;
-  height: 2.5px;
-  margin-left: auto;
-  margin-bottom: 3px;
-  margin-right: auto;
-  margin-top: 5px;
-  width: 18px;
+.icon {
+  display: none;
+  height: 30px;
+  width: 30px;
 }
 
 div nav a {
@@ -780,6 +775,10 @@ ol p {
     width: 100%;
   }
 
+  .menu {
+    display: block;
+  }
+
   #header nav .menu {
     display: block;
   }
@@ -791,12 +790,11 @@ ol p {
 
   /* #header div a {
     padding: 0px;
-  } */
+    } */
 
   .nav-class {
-    display: flex;
     flex-direction: column;
-    display: none !important;
+    /* display: none !important; */
     /* width: 300px; */
     align-items: flex-start !important;
     width: 100%;
@@ -805,6 +803,19 @@ ol p {
   .nav-class a {
     text-align: left;
   }
+
+  input[type="checkbox"]#toggle:checked ~ * .menu {
+    display: none;
+  }
+
+  input[type="checkbox"]#toggle:checked ~ * .close {
+    display: block;
+  }
+
+  input[type="checkbox"]#toggle:checked ~ div.nav-class {
+    background-color: red !important;
+  }
+
   /* .footer {
     height: 100%;
   } */

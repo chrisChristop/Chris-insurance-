@@ -9,13 +9,35 @@
   </head>
   <body>
     <div id="header">
-      <nav class="flex justify-content-between gap-30">
-        <a href="./index.html"
-          ><img src="../gallery/assets/new-leadway-white-logo.png" width="70px"
-        /></a>
-        <div class="flex">
+      <nav class="justify-content-between gap-30">
+        <div class="flex nav-left-container">
+          <a href="./index.html"
+            ><img
+              src="../gallery/assets/new-leadway-white-logo.png"
+              width="70px"
+          /></a>
+          <input type="checkbox" id="toggle" />
+
+          <div>
+            <label for="toggle">
+              <img
+                class="icon menu"
+                src="../gallery/assets/icons/hamburger-menu-svgrepo-com.svg"
+                alt=""
+              />
+
+              <img
+                class="icon close"
+                src="../gallery/assets/icons/close-svgrepo-com.svg"
+                alt=""
+              />
+            </label>
+          </div>
+        </div>
+
+        <div class="nav-class flex">
           <a href="./About Us.html">ABOUT US</a>
-          <a href="#services">OUR SERVICES</a>
+          <a href="./services.html">OUR SERVICES</a>
           <a href="./testimonials.html">TESTIMONIALS</a>
           <a href="./Contact.html">CONTACT</a>
           <a class="button" href="./login.html">LOGIN</a>
